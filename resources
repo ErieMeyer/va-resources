@@ -1,0 +1,330 @@
+{
+    "apiVersion": "1.0",
+    "swaggerVersion": "1.2",
+    "basePath": "http://api.va.publicprivatesector.org/v1",
+    "resourcePath": "/resources",
+    "produces": [
+        "application/json"
+    ],
+    "apis": [
+        {
+            "path": "/resources/family-caregiver-support/",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "Family Caregiver Support Resources",
+                    "notes": "Returns a list of VA facmily & caregiver support resources, allowing you to filter by keyword query.",
+                    "nickname": "getResources",
+                    "type": "resources",
+                    "parameters": [
+                        {
+                            "name": "query",
+                            "description": "a text query to search across resources",
+                            "required": false,
+                            "allowMultiple": false,
+                            "dataType": "string",
+                            "paramType": "query"
+                        }
+                    ],
+                    "produces": [
+                        "application/json"
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 404,
+                            "message": "No Resources To Return"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "/resources/health/",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "Health Resources",
+                    "notes": "Returns a list of VA health resources, allowing you to filter by keyword query.",
+                    "nickname": "getResources",
+                    "type": "resources",
+                    "parameters": [
+                        {
+                            "name": "query",
+                            "description": "a text query to search across resources",
+                            "required": false,
+                            "allowMultiple": false,
+                            "dataType": "string",
+                            "paramType": "query"
+                        }
+                    ],
+                    "produces": [
+                        "application/json"
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 404,
+                            "message": "No Resources To Return"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "/resources/other-services/",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "Other Services",
+                    "notes": "Returns a list of VA other service resources, allowing you to filter by keyword query.",
+                    "nickname": "getResources",
+                    "type": "resources",
+                    "parameters": [
+                        {
+                            "name": "query",
+                            "description": "a text query to search across resources",
+                            "required": false,
+                            "allowMultiple": false,
+                            "dataType": "string",
+                            "paramType": "query"
+                        }
+                    ],
+                    "produces": [
+                        "application/json"
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 404,
+                            "message": "No Resources To Return"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "/resources/housing/",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "Housing Resources",
+                    "notes": "Returns a list of VA housing resources, allowing you to filter by keyword query.",
+                    "nickname": "getResources",
+                    "type": "resources",
+                    "parameters": [
+                        {
+                            "name": "query",
+                            "description": "a text query to search across resources",
+                            "required": false,
+                            "allowMultiple": false,
+                            "dataType": "string",
+                            "paramType": "query"
+                        }
+                    ],
+                    "produces": [
+                        "application/json"
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 404,
+                            "message": "No Resources To Return"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "/resources/benefits-compensation/",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "Benefits Compensation Resources",
+                    "notes": "Returns a list of VA benefits compensation resources, allowing you to filter by keyword query.",
+                    "nickname": "getResources",
+                    "type": "resources",
+                    "parameters": [
+                        {
+                            "name": "query",
+                            "description": "a text query to search across resources",
+                            "required": false,
+                            "allowMultiple": false,
+                            "dataType": "string",
+                            "paramType": "query"
+                        }
+                    ],
+                    "produces": [
+                        "application/json"
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 404,
+                            "message": "No Resources To Return"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "/resources/education-training/",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "Education Training Resources",
+                    "notes": "Returns a list of VA education training resources, allowing you to filter by keyword query.",
+                    "nickname": "getResources",
+                    "type": "resources",
+                    "parameters": [
+                        {
+                            "name": "query",
+                            "description": "a text query to search across resources",
+                            "required": false,
+                            "allowMultiple": false,
+                            "dataType": "string",
+                            "paramType": "query"
+                        }
+                    ],
+                    "produces": [
+                        "application/json"
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 404,
+                            "message": "No Resources To Return"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "/resources/employment/",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "Employment Resources",
+                    "notes": "Returns a list of VA resources, allowing you to filter by keyword query.",
+                    "nickname": "getResources",
+                    "type": "resources",
+                    "parameters": [
+                        {
+                            "name": "query",
+                            "description": "a text query to search across resources",
+                            "required": false,
+                            "allowMultiple": false,
+                            "dataType": "string",
+                            "paramType": "query"
+                        }
+                    ],
+                    "produces": [
+                        "application/json"
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 404,
+                            "message": "No Resources To Return"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "/resources/transportation-travel/",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "Transportation & Travel Resources",
+                    "notes": "Returns a list of VA resources, allowing you to filter by keyword query.",
+                    "nickname": "getResources",
+                    "type": "resources",
+                    "parameters": [
+                        {
+                            "name": "query",
+                            "description": "a text query to search across resources",
+                            "required": false,
+                            "allowMultiple": false,
+                            "dataType": "string",
+                            "paramType": "query"
+                        }
+                    ],
+                    "produces": [
+                        "application/json"
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 404,
+                            "message": "No Resources To Return"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "/resources/homeless-assistance/",
+            "operations": [
+                {
+                    "method": "GET",
+                    "summary": "Homeless Assistance Resources",
+                    "notes": "Returns a list of VA resources, allowing you to filter by keyword query.",
+                    "nickname": "getResources",
+                    "type": "resources",
+                    "parameters": [
+                        {
+                            "name": "query",
+                            "description": "a text query to search across resources",
+                            "required": false,
+                            "allowMultiple": false,
+                            "dataType": "string",
+                            "paramType": "query"
+                        }
+                    ],
+                    "produces": [
+                        "application/json"
+                    ],
+                    "responseMessages": [
+                        {
+                            "code": 404,
+                            "message": "No Resources To Return"
+                        }
+                    ]
+                }
+            ]
+        }              
+    ],
+    "models": {
+     	"resources": {
+            "id": "resources",
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "newItem": {
+                    "type": "string"
+                },
+                "linkName": {
+                    "type": "string"
+                },
+                "linkUrl": {
+                    "type": "string"
+                },
+                "phoneNumber": {
+                    "type": "string"
+                },
+                "governmentSupportedSite": {
+                    "type": "string"
+                },
+                "content": {
+                    "type": "string"
+                },
+                "startDate": {
+                    "type": "string"
+                },
+                "endDate": {
+                    "type": "string"
+                },
+                "interestGroups": {
+                    "type": "Array"
+                },
+                "geographicServiceLocations": {
+                    "type": "Array"
+                }
+            }
+        }
+    }
+}
